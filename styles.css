@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(249, 248, 248);
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  height: 100px;
+  width: 100%;
+}
+
+.logotipo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  height: 80px;
+}
+
+.empresa {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.pizza {
+  color: #39b24a;
+}
+
+.front {
+  color: #fc200c;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 19px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 400px;
+}
+.item-navheader {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 715px;
+}
+
+.card1 {
+  width: 700px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.imgdelivery {
+  width: 700px;
+  height: 450px;
+  border-radius: 2%;
+}
+.frase {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Envio {
+  color: #fc200c;
+}
+.pizzas {
+  color: #fc200c;
+}
+
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 700px;
+  height: 450px;
+  border-radius: 2%;
+  border: rgb(238, 238, 238) solid;
+  background-color: white;
+  justify-content: center;
+}
+
+.card2 h2 {
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.lista h3 {
+  position: relative;
+  top: 20px;
+  left: 40px;
+  width: 100%;
+  height: 85px;
+}
+.lista ol {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 300px;
+  font-weight: bold;
+}
+
+.lista li {
+  width: 100%;
+}
+
+.imgplato {
+  width: 92px;
+  height: 129px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  width: 100%;
+  height: 150px;
+  margin-top: auto;
+}
+
+.menu2 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.menu2 ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  height: 112px;
+  width: 100px;
+}
+
+.item-navfooter {
+  color: white;
+  text-decoration: none;
+}
+
+.logotipo2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  height: 80px;
+}
+
+.empresa {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.pizza {
+  color: #39b24a;
+}
+
+.front {
+  color: #fc200c;
+}
